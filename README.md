@@ -1,10 +1,6 @@
 # OpenSearch-SIEM
 
-Here's the updated README with the Linux/Fedora section added:
-
-markdown# OpenSearch SIEM Stack
-
-A fully functional SIEM (Security Information and Event Management) solution built with OpenSearch, Logstash, and Winlogbeat. Developed as part of a SOC internship at Security Era (Sekera Group).
+A fully functional SIEM (Security Information and Event Management) solution built with OpenSearch, Logstash, and Winlogbeat.
 
 ## Overview
 
@@ -20,21 +16,6 @@ This project deploys a complete log collection and threat detection pipeline:
 > **Note:** Winlogbeat requires a Windows machine or VM.
 > The Docker stack runs on any OS. For log collection on Linux machines,
 > use Filebeat instead of Winlogbeat.
-
-## Architecture
-Windows Machine (Winlogbeat)
-
-│
-
-└──► Logstash :5044
-
-│
-
-└──► OpenSearch :9200
-
-│
-
-└──► OpenSearch Dashboards :5601
 
 ## Requirements
 
