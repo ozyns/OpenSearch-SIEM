@@ -161,7 +161,7 @@ http://localhost:5601
 
 **1. Download Winlogbeat 7.17.0**
 
-👉 https://www.elastic.co/downloads/past-releases/winlogbeat-7-17-0
+https://www.elastic.co/downloads/past-releases/winlogbeat-7-17-0
 
 Download the **Windows ZIP x86_64** version.
 
