@@ -6,12 +6,12 @@ A fully functional SIEM (Security Information and Event Management) solution bui
 
 This project deploys a complete log collection and threat detection pipeline:
 
-- **OpenSearch** — stores and indexes security logs
-- **OpenSearch Dashboards** — visualizes logs and security events
-- **Logstash** — receives and processes logs from agents
-- **Winlogbeat** — collects Windows Event Logs from monitored machines
-- **Sigma rules** — vendor-neutral detection rules converted to Lucene queries
-- **OpenSearch Alerting** — real-time alerts sent to Slack on attack detection
+- **OpenSearch** - stores and indexes security logs
+- **OpenSearch Dashboards** - visualizes logs and security events
+- **Logstash** - receives and processes logs from agents
+- **Winlogbeat** - collects Windows Event Logs from monitored machines
+- **Sigma rules** - vendor-neutral detection rules converted to Lucene queries
+- **OpenSearch Alerting** - real-time alerts sent to Slack on attack detection
 
 > **Note:** Winlogbeat requires a Windows machine or VM.
 > The Docker stack runs on any OS. For log collection on Linux machines,
