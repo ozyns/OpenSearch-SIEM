@@ -1,0 +1,16 @@
+title: Multiple Failed Login Attempts
+status: experimental
+description: Detects multiple failed login attempts on a Windows system
+author: Oussama Zayane
+date: 2026/06/25
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4625
+    condition: selection
+level: medium
+tags:
+    - attack.credential_access
+    - attack.t1110
