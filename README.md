@@ -110,8 +110,8 @@ Then apply the same `vm.max_map_count` fix above.
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/ozyns/opensearch-siem.git
-cd opensearch-siem
+git clone https://github.com/ozyns/OpenSearch-SIEM.git
+cd OpenSearch-SIEM
 ```
 
 **2. Set the admin password**
