@@ -127,6 +127,7 @@ Password must contain uppercase, lowercase, digit, and special character.
 **3. Start the stack**
 
 ```bash
+sudo chmod 666 /var/run/docker.sock
 docker compose up -d
 ```
 
