@@ -1,0 +1,16 @@
+title: New User Account Created
+status: experimental
+description: Detects the creation of a new local user account
+author: Oussama Zayane
+date: 2026/06/25
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4720
+    condition: selection
+level: low
+tags:
+    - attack.persistence
+    - attack.t1136

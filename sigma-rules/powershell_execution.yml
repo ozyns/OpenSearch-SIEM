@@ -1,0 +1,16 @@
+title: PowerShell Script Execution
+status: experimental
+description: Detects PowerShell script execution via Windows event logs
+author: Oussama Zayane
+date: 2026/06/25
+logsource:
+    product: windows
+    service: powershell
+detection:
+    selection:
+        EventID: 4104
+    condition: selection
+level: medium
+tags:
+    - attack.execution
+    - attack.t1059.001
